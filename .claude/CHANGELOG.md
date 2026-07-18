@@ -2,6 +2,9 @@
 
 Newest first. `update-kit` reads this file to tell you what changed. One entry per version, three lines max.
 
+## 0.3.3 — 2026-07-18
+- Second module: **whatsapp** (opt-in, Mac first, read-first): digests and chat-to-context via a patched bridge — sending ships disabled, send guard mandatory when enabled. Own repo; pointer in `.claude/modules/whatsapp/`.
+
 ## 0.3.2 — 2026-07-18
 - New skill: **test-my-brain** ("test my brain"): five golden drops score your brain's decision logic (filing, owner+date, ask-not-guess, injection, tiers) — dry run, nothing written. Run it after every kit update.
 - Third agent: **vault-audit** (read-only quality sweep: conflicts, staleness, orphans, drift); synthesis-run can now delegate its detection pass to it.

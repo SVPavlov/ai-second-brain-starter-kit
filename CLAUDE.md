@@ -1,5 +1,5 @@
 ---
-kit_version: 0.3.2
+kit_version: 0.3.3
 ---
 
 # Operating manual for this brain
