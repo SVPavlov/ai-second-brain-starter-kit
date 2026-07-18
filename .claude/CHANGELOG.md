@@ -2,6 +2,10 @@
 
 Newest first. `update-kit` reads this file to tell you what changed. One entry per version, three lines max.
 
+## 0.2.3 — 2026-07-18
+- **Data rule replaced:** the blanket client-data ban is gone; a four-tier model takes its place (internal work free, client context allowed in your private vault, raw confidential documents discouraged, regulated data never). Decision record with rationale lives with the track lead.
+- Hand-editing skills is now explicitly fine (update-kit shows you diffs before overwriting); missing frontmatter is repair work for synthesis, not an error.
+
 ## 0.2.2 — 2026-07-18
 - New skills: **update-kit** ("update my kit", also `/update-kit`) and **track-stats** ("track stats" / "meetregel", also `/stats`).
 - This changelog exists; the update skill reports from it.
