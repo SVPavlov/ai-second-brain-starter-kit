@@ -27,6 +27,7 @@ Numbered files at the root are the working memory the AI loads first. Capitalize
 | `Patterns/` | Reusable things that worked, for the next engagement |
 | `Sources/` | Cold storage: ingested documents kept for reference |
 | `Archive/` | Stale or superseded material (out of the catalog) |
+| `Shared-outbox/` | Patterns you approved for the group, staged to leave (share-pattern) |
 
 ## Catalog
 

@@ -2,6 +2,10 @@
 
 Newest first. `update-kit` reads this file to tell you what changed. One entry per version, three lines max.
 
+## 0.3.1 — 2026-07-18
+- New skill: **share-pattern** ("share this with the group"): the upward path — double sanitization gate, you approve the exact outgoing text, staged in the new `Shared-outbox/` folder, out via group chat or a kit-repo PR.
+- Second agent: **vault-search** (read-only librarian for broad vault lookups).
+
 ## 0.3.0 — 2026-07-18
 - Five new skills: **research-brief**, **deep-research** (with cost warning), **learn**, **capture-idea**, **import-memories**.
 - First agent: **client-research** (read-only research legman, `.claude/agents/`).

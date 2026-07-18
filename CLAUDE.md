@@ -1,5 +1,5 @@
 ---
-kit_version: 0.3.0
+kit_version: 0.3.1
 ---
 
 # Operating manual for this brain
@@ -23,6 +23,7 @@ This vault is the owner's second brain: a structured, personal knowledge system 
 | A reusable thing that worked | `Patterns/` |
 | Ingested source documents (cold storage) | `Sources/` |
 | Stale or superseded material | `Archive/` (drop it from the catalog) |
+| A pattern approved to leave for the group | `Shared-outbox/` (only via the share-pattern gate) |
 | Action items | append to `03-tasks.md` |
 | Questions only the owner can resolve | append to `05-synthesis.md` |
 
