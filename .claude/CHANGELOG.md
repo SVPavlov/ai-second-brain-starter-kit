@@ -2,6 +2,11 @@
 
 Newest first. `update-kit` reads this file to tell you what changed. One entry per version, three lines max.
 
+## 0.3.0 — 2026-07-18
+- Five new skills: **research-brief**, **deep-research** (with cost warning), **learn**, **capture-idea**, **import-memories**.
+- First agent: **client-research** (read-only research legman, `.claude/agents/`).
+- First module: **browser** (`.claude/modules/browser/`, opt-in): Claude in Chrome + web-clip-to-brain and behind-the-login. Inactive until you copy its skills into `.claude/skills/` — see the module README.
+
 ## 0.2.3 — 2026-07-18
 - **Data rule replaced:** the blanket client-data ban is gone; a four-tier model takes its place (internal work free, client context allowed in your private vault, raw confidential documents discouraged, regulated data never). Decision record with rationale lives with the track lead.
 - Hand-editing skills is now explicitly fine (update-kit shows you diffs before overwriting); missing frontmatter is repair work for synthesis, not an error.
