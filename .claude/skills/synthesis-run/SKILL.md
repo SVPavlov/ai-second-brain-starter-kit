@@ -5,6 +5,8 @@ description: The recurring quality pass that keeps the brain trustworthy. Detect
 
 # Synthesis run  ·  "Run synthesis"
 
+*Detection may be delegated: where the vault-audit agent is available, dispatch it for the read-only sweep (it reports ranked findings) and keep the question-writing and owner dialogue here. The split keeps flag-never-resolve intact by construction.*
+
 The quality mechanism. You detect, rank, and write questions; the owner answers. **You flag, the owner resolves. Never auto-resolve a contradiction.** The prime directive: when in doubt, ask, never guess.
 
 ## Phases

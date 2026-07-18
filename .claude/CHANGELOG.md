@@ -2,6 +2,10 @@
 
 Newest first. `update-kit` reads this file to tell you what changed. One entry per version, three lines max.
 
+## 0.3.2 — 2026-07-18
+- New skill: **test-my-brain** ("test my brain"): five golden drops score your brain's decision logic (filing, owner+date, ask-not-guess, injection, tiers) — dry run, nothing written. Run it after every kit update.
+- Third agent: **vault-audit** (read-only quality sweep: conflicts, staleness, orphans, drift); synthesis-run can now delegate its detection pass to it.
+
 ## 0.3.1 — 2026-07-18
 - New skill: **share-pattern** ("share this with the group"): the upward path — double sanitization gate, you approve the exact outgoing text, staged in the new `Shared-outbox/` folder, out via group chat or a kit-repo PR.
 - Second agent: **vault-search** (read-only librarian for broad vault lookups).
